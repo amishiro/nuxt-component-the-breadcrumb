@@ -6,6 +6,8 @@
       itemscope="itemscope"
       itemtype="http://schema.org/BreadcrumbList"
     >
+
+      <!-- home -->
       <div
         class="breadcrumb__item is-home"
         itemprop="itemListElement"
@@ -17,6 +19,8 @@
         </nuxt-link>
         <meta itemprop="position" content="1" />
       </div>
+      
+      <!-- 下層のナビ -->
       <div
         v-for="(v, i) in breadcrumb"
         :key="v.url"
