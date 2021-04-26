@@ -1,5 +1,4 @@
 <template>
-  <!-- eslint-disable vue/no-v-html -->
   <nav class="breadcrumb">
     <div
       class="breadcrumb__inner"
@@ -30,6 +29,7 @@
         itemtype="http://schema.org/ListItem"
       >
         <nuxt-link class="breadcrumb__link" itemprop="item" :to="v.url">
+          <!-- eslint-disable-next-line vue/no-v-html -->
           <span itemprop="name" v-html="v.title" />
         </nuxt-link>
         <meta itemprop="position" :content="i + 2" />
