@@ -5,7 +5,6 @@
       itemscope="itemscope"
       itemtype="http://schema.org/BreadcrumbList"
     >
-
       <!-- home -->
       <div
         class="breadcrumb__item is-home"
